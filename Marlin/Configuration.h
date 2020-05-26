@@ -484,9 +484,15 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // SKR V1.4 MK3s
-  #define DEFAULT_Kp 16.50
-  #define DEFAULT_Ki 1.16
-  #define DEFAULT_Kd 58.80
+  //#define DEFAULT_Kp 16.50
+  //#define DEFAULT_Ki 1.16
+  //#define DEFAULT_Kd 58.80
+
+  // PID tune results
+  #define DEFAULT_Kp 28.08
+  #define DEFAULT_Ki 3.76
+  #define DEFAULT_Kd 52.43
+
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -534,9 +540,14 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   //SKR MK3s V1.4
-  #define DEFAULT_bedKp 28.13
-  #define DEFAULT_bedKi 1.09
-  #define DEFAULT_bedKd 483.07
+  //#define DEFAULT_bedKp 28.13
+  //#define DEFAULT_bedKi 1.09
+  //#define DEFAULT_bedKd 483.07
+  //PID tune results
+  #define DEFAULT_bedKp 40.70
+  #define DEFAULT_bedKi 2.28
+  #define DEFAULT_bedKd 485.37
+
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)

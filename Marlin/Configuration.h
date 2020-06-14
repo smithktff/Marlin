@@ -1118,7 +1118,7 @@
 #define Y_MIN_POS -4
 #define Z_MIN_POS 0
 #define X_MAX_POS 254
-#define Y_MAX_POS 212.5
+#define Y_MAX_POS 210
 #define Z_MAX_POS 210
 
 /**
@@ -1279,13 +1279,13 @@
 
     // Beyond the probed grid, continue the implied tilt?
     // Default is to maintain the height of the nearest edge.
-    #define EXTRAPOLATE_BEYOND_GRID
+    // #define EXTRAPOLATE_BEYOND_GRID
 
     //
     // Experimental Subdivision of the grid by Catmull-Rom method.
     // Synthesizes intermediate points to produce a more detailed mesh.
     //
-    #define ABL_BILINEAR_SUBDIVISION
+    //#define ABL_BILINEAR_SUBDIVISION
     #if ENABLED(ABL_BILINEAR_SUBDIVISION)
       // Number of subdivisions between probe points
       #define BILINEAR_SUBDIVISIONS 3
